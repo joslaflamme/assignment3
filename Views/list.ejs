@@ -1,0 +1,14 @@
+<html>
+  <head>
+    <title>Dashboard</title>
+  </head>
+  <body>
+    <h1>Users</h1>
+    <ul>
+    <% users.forEach(function(user) { %>
+      <li>Name: <%= user.username %> , Score: <%= user.score %></li>
+    <% }); %>
+    </ul>
+    <a href="/">Home</a>
+  </body>
+</html>
